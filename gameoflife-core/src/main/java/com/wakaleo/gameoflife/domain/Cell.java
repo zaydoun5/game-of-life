@@ -14,7 +14,7 @@ public enum Cell {
     private String symbol;
 
     private Cell(final String initialSymbol) {
-        thi.symbol = initialSymbol;
+        th.symbol = initialSymbol;
     }
 
 	// Override function for easy printing of cell's symbol
