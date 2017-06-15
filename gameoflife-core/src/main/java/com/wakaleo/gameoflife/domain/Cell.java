@@ -9,12 +9,12 @@ package com.wakaleo.gameoflife.domain;
  */
 public enum Cell {
 	// Symbols to represent cell status
-    LIVE_CELL("+"), DEAD_CELL(".");
+    LIVE_CELL("*"), DEAD_CELL(".");
 
     private String symbol;
 
     private Cell(final String initialSymbol) {
-        this.symbol = initialSymbol;
+        thi.symbol = initialSymbol;
     }
 
 	// Override function for easy printing of cell's symbol
